@@ -155,7 +155,7 @@ a.active, a:active, a:focus, a:hover {
 
 .navbar-custom .navbar-nav>.active>a:focus, .navbar-custom .navbar-nav>.active>a:hover {
 	color: #fff;
-	background-color: #fec503
+	background-color: #d6dbdf
 }
 
 @media (min-width:768px) {
