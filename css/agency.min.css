@@ -194,10 +194,10 @@ header {
 	background-image: url(../img/jill-hero-2.png);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
-	background-position: bottom 100px;
+	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	background-size: 95%;
+	background-size: cover;
 	-o-background-size: cover;
 	text-align: center;
 	color: #fff
