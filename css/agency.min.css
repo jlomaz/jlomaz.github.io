@@ -191,13 +191,13 @@ a.active, a:active, a:focus, a:hover {
 }
 
 header {
-	background-image: url(../img/jill-hero-2.png) no-repeat center center fixed;
+	background-image: url(../img/jill-hero-2.png);
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	background-size: cover;
+	background-size: contain;
 	-o-background-size: cover;
 	text-align: center;
 	color: #fff; 
