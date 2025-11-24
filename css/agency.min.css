@@ -197,7 +197,7 @@ header {
 	background-position: bottom 100px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	background-size: cover;
+	background-size: 80%;
 	-o-background-size: cover;
 	text-align: center;
 	color: #fff
