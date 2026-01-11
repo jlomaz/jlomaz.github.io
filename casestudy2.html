@@ -23,6 +23,116 @@
     "stylesheet"><!-- Main Stylesheet -->
     <link href="css/style.css" rel="stylesheet"><!-- Timeline CSS -->
     <link href="css/timeline.css" rel="stylesheet">
+
+<style>
+        .container.project-body {
+    max-width: 1140px;
+}
+.container {
+    max-width: 1440px;
+}
+@media screen and (max-width: 767px) {
+    .w-layout-blockcontainer {
+        max-width: none;
+    }
+}
+@media screen and (max-width: 991px) {
+    .w-layout-blockcontainer {
+        max-width: 728px;
+    }
+}
+.w-layout-blockcontainer {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media screen and (max-width: 991px) {
+    .w-container {
+        max-width: 728px;
+    }
+}
+.w-container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.section.dark {
+    background-color: var(--background-black);
+    color: var(--white);
+}
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+body {
+    font-family: var(--body);
+    color: var(--text-black);
+    font-size: 18px;
+    line-height: 28px;
+}
+body {
+    color: #333;
+    background-color: #fff;
+    min-height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+:root {
+    --body: "Mona Sans", sans-serif;
+    --text-black: #212121;
+    --heading: "Hubot Sans", sans-serif;
+    --background-black: #121212;
+    --white: white;
+    --divider: #e0e0e0;
+    --cta: var(--blue-500);
+    --button: "Hubot Sans", sans-serif;
+    --marquee-gap: 120px;
+    --blue-100: #e8effd;
+    --blue-50: #f6f9fe;
+    --blue-600: #1559d1;
+    --_interactions---toc-list-padding: 8px;
+    --blue-500: #2d64f1;
+    --divider-white: #fafafa1f;
+    --blue-200: #b9d0f8;
+    --h1: 64px;
+    --h1-height: 80px;
+    --white-2: white;
+    --black: black;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+.w-container:before, .w-container:after {
+    content: " ";
+    grid-area: 1 / 1 / 2 / 2;
+    display: table;
+}
+.w-container:after {
+    clear: both;
+}
+.w-container:before, .w-container:after {
+    content: " ";
+    grid-area: 1 / 1 / 2 / 2;
+    display: table;
+}
+        
+    </style>
+    
 </head>
 
 <body>
