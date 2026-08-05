@@ -83,11 +83,114 @@
 <script src="chrome-extension://ogbhbgkiojdollpjbhbamafmedkeockb/content-script/extend-native-history-api.js">
   
 </script>
+
+<!-- Navbar styles -->
+element.style {
+}
+@media (min-width: 768px) {
+    .navbar-custom.affix {
+        background-color: #222;
+        padding: 10px 0;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-custom {
+        background-color: black;
+        padding: 25px 0;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        border: none;
+    }
+}
+.navbar-custom {
+.affix {
+    position: fixed;
+}
+.navbar-default {
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+@media (min-width: 768px) {
+    .navbar-fixed-bottom, .navbar-fixed-top {
+        border-radius: 0;
+    }
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+@media (min-width: 768px) {
+    
+.navbar {
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+  
 </head>
 
 <body>
   <div data-animation="over-right"data-collapse="medium"data-duration="400"data-easing="ease"data-easing2="ease"role="banner"class="navbar w-nav">
-    <div class="container nav w-container"><!--a href="/"class="nav-logo w-nav-brand"aria-label="home"><img src="https://cdn.prod.website-files.com/66678386bd5b38e38c662869/666b6a6578d500fe282fbae2_ljubomir.design-wordmark.svg"loading="eager"width="178"height="22"alt="ljubomir.design wordmark"fetchpriority="high"></a-->
+    <div class="container nav w-container">
+
+
+  <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top affix">
+        <div class="container" style="background-color: #000">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Jill Lomaz</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color: #000">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="active">
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    
+                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+      
+      <!--a href="/"class="nav-logo w-nav-brand"aria-label="home"><img src="https://cdn.prod.website-files.com/66678386bd5b38e38c662869/666b6a6578d500fe282fbae2_ljubomir.design-wordmark.svg"loading="eager"width="178"height="22"alt="ljubomir.design wordmark"fetchpriority="high"></a-->
       <a class="navbar-brand-j page-scroll"href="#page-top">Jill Lomaz</a>
       <!--nav role="navigation"class="nav-menu w-nav-menu">
         <div data-hover="false"data-delay="0"class="dropdown w-dropdown">
@@ -111,6 +214,10 @@
             <a href="/contact"class="nav-link w-nav-link">Contact</a>
             <link rel="prefetch"href="/contact">
     </nav-->
+
+
+
+      
           <div data-w-id="41683b3f-2f0a-be1b-e1c5-d9618de11b7b"class="menu-button w-nav-button"style="-webkit-user-select: text;"aria-label="menu"role="button"tabindex="0"aria-controls="w-nav-overlay-0"aria-haspopup="menu"aria-expanded="false">
             <div class="hide w-icon-nav-menu"></div>
             <div data-is-ix2-target="1"class="menu-icon"data-w-id="bcc78206-949e-8633-afcc-f0d064e9dcfe"data-animation-type="lottie"data-src="https://cdn.prod.website-files.com/66678386bd5b38e38c662869/67dc9c1c97c54306d02bb9b4_Menu-Animation-X.lottie"data-loop="0"data-direction="1"data-autoplay="0"data-renderer="svg"data-default-duration="0"data-duration="1.1666666666666667">
